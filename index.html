@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>        
+    <title>Teste Target Sistemas</title>
+</head>
+<body>
+    <header class="cabecalhoConteudo">
+        <h1 class="titulo">Teste Target Sistemas</h1>
+    </header>
+    <main>
+        <h2 class="questao">Questão 2</h2>
+        <p class="pergunta">Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.</p>
+        <section class="inserirValor">
+            <input class="valor" type="number" id="numero" placeholder="Escreva algum número">
+            <input class="botao" type="submit" id="botao" value="Enviar">
+        </section>
+        <div class="resultado" id="escreva-2"></div>
+
+        <h2 class="questao">Questão 3</h2>
+        <p class="pergunta">Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:<br>
+            <strong>&middot;</strong> O menor valor de faturamento ocorrido em um dia do mês;<br>
+            <strong>&middot;</strong> O maior valor de faturamento ocorrido em um dia do mês;<br>
+            <strong>&middot;</strong> Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+        </p>
+        <section class="botoesFaturamento">
+            <input class="botao" type="button" id="menorFaturamento" value="Mostrar menor faturamento">
+            <input class="botao" type="button" id="maiorFaturamento" value="Mostrar maior faturamento">
+            <input class="botao" type="button" id="diaFaturamentoMaior" value="Número de dias em que o faturamento foi superior à média mensal">
+        </section>
+        <div class="resultado" id="escreva-3"></div>
+
+        <h2 class="questao">Questão 4</h2>
+        <p class="pergunta">Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:<br>
+            SP - R$67.836,43<br>
+            RJ - R$36.678,66<br>
+            MG - R$29.229,88<br>
+            ES - R$27.165,48<br>
+            Outros - R$19.849,53<br>
+            Percentual que cada estado teve de representação dentro do valor total mensal da distribuidora é:</p>
+        <section class="botaoPercentual">
+            <input type="submit" class="botao" id="mostrarPercentual" value="Mostrar Percentual">
+        </section>
+        <div class="resultado" id="escreva-4"></div>
+
+        <h2 class="questao">Questão 5</h2>
+        <p class="pergunta">Escreva um programa que inverta os caracteres de um string:</p>
+        <section class="escrevaString">
+            <input class="valor" type="text" id="string" placeholder="Escreva uma palavra">
+            <input class="botao" type="submit" id="botaoInverte" value="Inverter">
+        </section>
+        <div class="resultado" id="escreva-5"></div>
+
+    </main>
+    <script src="js/questao-2.js"></script>
+    <script src="js/questao-3.js"></script>
+    <script src="js/questao-4.js"></script>
+    <script src="js/questao-5.js"></script>
+</body>
+</html>
